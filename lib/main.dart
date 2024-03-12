@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: TextStyle(
                 fontSize: 40,
               ),),
-            Icon(
+            const Icon(
               Icons.audiotrack,
               color: Colors.green,
               size: 150.0,
