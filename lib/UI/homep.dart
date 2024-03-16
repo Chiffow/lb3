@@ -65,11 +65,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 displayText = texts[Random().nextInt(texts.length)];
               });
             }, child: Text("Узнай"),),
-            const Icon(
-              Icons.audiotrack,
-              color: Colors.green,
-              size: 150.0,
-            ),
           ],
 
         ),
